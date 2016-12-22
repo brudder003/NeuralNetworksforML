@@ -111,7 +111,10 @@ for i=1:num_neg_examples
     x = this_case'; %Hint
     activation = this_case*w;
     if (activation >= 0)
-        %YOUR CODE HERE
+        %YOUR CODE HEREthis
+        %If the output unit incorrectly outputs a 1, subtract the input vector from the
+        %weight vector. 
+        w = w - x;
     end
 end
 for i=1:num_pos_examples
@@ -120,6 +123,9 @@ for i=1:num_pos_examples
     activation = this_case*w;
     if (activation < 0)
         %YOUR CODE HERE
+        %If the output unit incorrectly outputs a zero, add the input vector to the
+        %weight vector. 
+        w = w + x;
     end
 end
 
