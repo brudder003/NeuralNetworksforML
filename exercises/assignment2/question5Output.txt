@@ -1,0 +1,99 @@
+Model A: Learning rate = 0.001:
+Epoch 1
+Batch 100 Train CE 5.358
+Batch 200 Train CE 5.053
+Batch 300 Train CE 4.872
+Batch 400 Train CE 4.804
+Batch 500 Train CE 4.731
+Batch 600 Train CE 4.726
+Batch 700 Train CE 4.650
+Batch 800 Train CE 4.619
+Batch 900 Train CE 4.634
+Batch 1000 Train CE 4.586
+Running validation ... Validation CE 4.583
+Batch 1100 Train CE 4.561
+Batch 1200 Train CE 4.565
+Batch 1300 Train CE 4.562
+Batch 1400 Train CE 4.558
+Batch 1500 Train CE 4.506
+Batch 1600 Train CE 4.526
+Batch 1700 Train CE 4.507
+Batch 1800 Train CE 4.501
+Batch 1900 Train CE 4.498
+Batch 2000 Train CE 4.473
+Running validation ... Validation CE 4.486
+Batch 2100 Train CE 4.487
+Batch 2200 Train CE 4.469
+Batch 2300 Train CE 4.487
+Batch 2400 Train CE 4.460
+Batch 2500 Train CE 4.469
+Batch 2600 Train CE 4.486
+Batch 2700 Train CE 4.479
+Batch 2800 Train CE 4.456
+Batch 2900 Train CE 4.449
+Batch 3000 Train CE 4.432
+Running validation ... Validation CE 4.447
+Batch 3100 Train CE 4.432
+Batch 3200 Train CE 4.436
+Batch 3300 Train CE 4.415
+Batch 3400 Train CE 4.443
+Batch 3500 Train CE 4.420
+Batch 3600 Train CE 4.436
+Batch 3700 Train CE 4.413
+Average Training CE 4.566
+Finished Training.
+Final Training CE 4.566
+Final Validation CE 4.431
+Final Test CE 4.438
+Training took 85.79 seconds
+
+Model B: Learning rate = 0.1
+Epoch 1
+Batch 100 Train CE 4.521
+Batch 200 Train CE 4.425
+Batch 300 Train CE 4.394
+Batch 400 Train CE 4.405
+Batch 500 Train CE 4.377
+Batch 600 Train CE 4.427
+Batch 700 Train CE 4.383
+Batch 800 Train CE 4.372
+Batch 900 Train CE 4.429
+Batch 1000 Train CE 4.399
+Running validation ... Validation CE 4.402
+Batch 1100 Train CE 4.394
+Batch 1200 Train CE 4.418
+Batch 1300 Train CE 4.415
+Batch 1400 Train CE 4.424
+Batch 1500 Train CE 4.399
+Batch 1600 Train CE 4.412
+Batch 1700 Train CE 4.399
+Batch 1800 Train CE 4.402
+Batch 1900 Train CE 4.407
+Batch 2000 Train CE 4.385
+Running validation ... Validation CE 4.405
+Batch 2100 Train CE 4.410
+Batch 2200 Train CE 4.401
+Batch 2300 Train CE 4.413
+Batch 2400 Train CE 4.396
+Batch 2500 Train CE 4.406
+Batch 2600 Train CE 4.430
+Batch 2700 Train CE 4.433
+Batch 2800 Train CE 4.402
+Batch 2900 Train CE 4.398
+Batch 3000 Train CE 4.380
+Running validation ... Validation CE 4.408
+Batch 3100 Train CE 4.395
+Batch 3200 Train CE 4.398
+Batch 3300 Train CE 4.375
+Batch 3400 Train CE 4.399
+Batch 3500 Train CE 4.386
+Batch 3600 Train CE 4.400
+Batch 3700 Train CE 4.382
+Average Training CE 4.405
+Finished Training.
+Final Training CE 4.405
+Final Validation CE 4.394
+Final Test CE 4.402
+Training took 84.70 seconds
+
+Model C: Learning rate = 10.0
